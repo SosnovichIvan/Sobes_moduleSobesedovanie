@@ -1,9 +1,8 @@
-import AppLayout from "hostApp/AppLayout";
 
 const App = () => {
   return (
     <div>
-      <AppLayout>Sobesedovanie</AppLayout>
+      Sobesedovanie
     </div>
   );
 };
