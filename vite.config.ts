@@ -13,7 +13,7 @@ export default defineConfig({
         host: "http://localhost:3001/assets/remoteEntry.js",
       },
       exposes: {
-        "./App": "./src/app/ui/index",
+        "./App": "./src/app/ui/module/ui/index.tsx",
       },
       shared: ["react", "react-dom", "react-router-dom", "zustand"],
     }),
