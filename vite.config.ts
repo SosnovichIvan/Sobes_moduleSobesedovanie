@@ -10,12 +10,12 @@ export default defineConfig({
       name: "sobesedovanie",
       filename: "remoteEntry.js",
       remotes: {
-        hostApp: "http://localhost:3001/assets/remoteEntry.js",
+        host: "http://localhost:3001/assets/remoteEntry.js",
       },
       exposes: {
         "./App": "./src/app/ui/index",
       },
-      shared: ["react", "react-dom"],
+      shared: ["react", "react-dom", "react-router-dom", "zustand"],
     }),
   ],
   build: {

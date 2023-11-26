@@ -1,9 +1,12 @@
+import Layout from "host/Layout";
+
+import AppModule from "./module";
 
 const App = () => {
   return (
-    <div>
-      Sobesedovanie
-    </div>
+    <Layout path="/sobes">
+      <AppModule />
+    </Layout>
   );
 };
 

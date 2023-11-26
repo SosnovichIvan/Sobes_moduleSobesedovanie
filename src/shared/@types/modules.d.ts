@@ -1,1 +1,1 @@
-declare module "hostApp/AppLayout";
+declare module "host/Layout";
